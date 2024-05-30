@@ -1,0 +1,32 @@
+﻿生成启动时间为 2018/6/13 21:42:47。
+     1>项目“E:\JMComMV\EncVideo\EncVideo\EncVideo.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\JMComMV\EncVideo\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\EncVideo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2012\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\EncVideo.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\VS2012\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\EncVideo.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EncVideo.cpp EncVideoDlg.cpp
+         EncVideo.cpp
+         EncVideoDlg.cpp
+     1>EncVideoDlg.cpp(231): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>EncVideoDlg.cpp(348): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\EncVideo.res" EncVideo.rc 
+       Link:
+         E:\VS2012\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JMComMV\EncVideo\Release\EncVideo.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\VS2012\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\JMComMV\EncVideo\Release\EncVideo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JMComMV\EncVideo\Release\EncVideo.lib" /MACHINE:X86 /SAFESEH Release\EncVideo.res
+         Release\EncVideo.obj
+         Release\EncVideoDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         EncVideo.vcxproj -> E:\JMComMV\EncVideo\Release\EncVideo.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\EncVideo.unsuccessfulbuild”。
+         正在对“Release\EncVideo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\JMComMV\EncVideo\EncVideo\EncVideo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.58
